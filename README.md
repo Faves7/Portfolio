@@ -11,4 +11,4 @@
 <img src="https://user-images.githubusercontent.com/30637656/151653372-b90dc01f-c26a-4bb8-9d56-a2fd419f748e.png">
 
 <h3>Versión movil</h3>
-<img src="https://user-images.githubusercontent.com/30637656/151653485-f917187a-21ea-4ec0-a374-0a85ab5ffa58.png">
+<img src="https://user-images.githubusercontent.com/30637656/151654214-6764ad27-14ce-4f2d-9bf9-52659933c6ba.png">
