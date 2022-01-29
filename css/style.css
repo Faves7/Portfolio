@@ -565,6 +565,16 @@ section {
   bottom: 0;
 }
 
+.portfolio-wrap:hover{
+  box-shadow: 15px 10px 20px 10px grey;
+  transition: all ease-in-out 0.7s;
+  -webkit-transform:scale(1.10);
+  -moz-transform:scale(1.10);
+  -ms-transform:scale(1.10);
+  -o-transform:scale(1.10);
+  transform:scale(1.10);  
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
