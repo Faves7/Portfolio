@@ -462,7 +462,7 @@ section {
   -moz-transform:scale(1.25);
   -ms-transform:scale(1.25);
   -o-transform:scale(1.25);
-  transform:scale(1.25);  
+  transform:scale(1.25);   
 }
 
 .section-img:not(hover){
