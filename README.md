@@ -13,4 +13,5 @@
 <h3>Mobile</h3>
 <img src="https://user-images.githubusercontent.com/30637656/151654214-6764ad27-14ce-4f2d-9bf9-52659933c6ba.png">
 
-<p>Watch it <a href="https://faves7.github.io/portfolio/">here</a>
+
+<p>Watch it <a href="https://faves7.github.io/portfolio/">here</a></p>
