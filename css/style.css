@@ -291,7 +291,6 @@ section {
   margin-bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -397,7 +396,6 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -418,6 +416,7 @@ section {
   border-left: 2px solid #1f5297;
   position: relative;
 }
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -456,13 +455,19 @@ section {
   border: 2px solid #1f5297;
 }
 
+.section-img{  
+  height: 200px;
+  width: 200px;
+}
+
+
 .section-img:hover{
   transition: all ease-in-out 0.7s;
   -webkit-transform:scale(1.25);
   -moz-transform:scale(1.25);
   -ms-transform:scale(1.25);
   -o-transform:scale(1.25);
-  transform:scale(1.25);   
+  transform: rotate(7deg) scale(1.10);     
 }
 
 .section-img:not(hover){
@@ -471,7 +476,7 @@ section {
   -moz-transform:scale(1);
   -ms-transform:scale(1);
   -o-transform:scale(1);
-  transform:scale(1);  
+  transform:scale(1);    
 }
 
 /*--------------------------------------------------------------
@@ -512,9 +517,10 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  height: 400px;
-  width: 400px;
-  padding: 5%;
+  height: 300px;
+  width: 300px;
+  padding: 10%;
+  left: 1cm;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
