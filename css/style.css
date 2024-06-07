@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+hr {
+  border: 0;
+  border-top: 2px solid #999; 
+  border-bottom: 2px solid #333;
+  height:0;
+  }
+
 /*--------------------------------------------------------------
 # Back to top botton
 --------------------------------------------------------------*/
