@@ -954,3 +954,12 @@ section {
 li .language{
   list-style: none;
 }
+
+.blog{
+  height: 60px;
+  width: 60px;  
+}
+
+li .blog{
+  list-style: none;
+}
