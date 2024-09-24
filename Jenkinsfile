@@ -11,6 +11,8 @@ pipeline {
         stage('Deploy to GitHub') {
             steps {
                 sh '''
+                git config --global user.email "facuchaves957@gmail.com"
+                git config --global user.name "Facundo Chaves del Pino"
                 git checkout main
                 git add .
                 git commit -m "Deploy website via Jenkins"
