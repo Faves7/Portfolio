@@ -11,7 +11,7 @@ pipeline {
         stage('Deploy to GitHub') {
             steps {
                 sh '''
-                git checkout -b main
+                git checkout main
                 git add .
                 git commit -m "Deploy website via Jenkins"
                 git push origin main
