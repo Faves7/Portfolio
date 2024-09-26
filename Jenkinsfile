@@ -26,6 +26,7 @@ pipeline {
         }
         stage('Push') {
             steps {
+                echo 'Pushing Docker image'
                 sh 'docker push $DOCKER_IMAGE:latest'
             }
         }
