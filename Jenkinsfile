@@ -10,7 +10,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Faves7/portfolio.git'
             }
         }
-         stage('Build') {
+        stage('Build') {
             steps {
                 echo 'Building Docker image'
                 sh 'docker build -f Dockerfile -t $DOCKER_IMAGE:latest .'
