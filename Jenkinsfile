@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Docker image'
-                sh 'docker build -f Dockerfile -t $DOCKER_IMAGE:latest .'
+                sh 'docker build -t $DOCKER_IMAGE:latest .'
             }
         }
         stage('Docker Login') {
