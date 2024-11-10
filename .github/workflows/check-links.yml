@@ -1,0 +1,29 @@
+name: check broken links
+
+on: 
+    push: 
+      branches: [ "main" ]
+    pull_request:
+      branches: [ "main" ]
+
+jobs: 
+    link-check: 
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps: 
+            - name: checkout repo
+              uses: actions/checkout@v4
+                          
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                node-version: '18'
+        
+            - name: Install Linkinator
+              run: npm install -g linkinator
+        
+            - name: Run Link Check
+              run: linkinator "https://facundocdp.github.io/portfolio" --skip "mailto:" --recurse
